@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>Image Captioning Tool</title>
+	<link rel="stylesheet" type="text/css" href="maincss.css">
+</head>
+<body>
+	<div id="showImages">
+		<p id="imgID">imageID</p>
+		<p id="showingImage"><img src="sample1.jpg" width=500px height=300px id="currImage"></p>
+	</div>
+	<div id="inputCaptioning">
+		<label for="captions" id="textboxes"> Input captions here </label>
+		<input type="text" class="textboxes" id="caption1">
+		<input type="text" class="textboxes" id="caption2">
+		<input type="text" class="textboxes" id="caption3">
+		<input type="text" class="textboxes" id="caption4">
+		<input type="text" class="textboxes" id="caption5">
+	</div>
+
+	<div id="actionsSection">
+		<!--button class="myButton" onclick="displayPictures(0)"> Back</button>-->
+		<button class="myButton" onclick="done(0)"> Back</button>
+		<button class="myButton" onclick="done(1)"> Next</button>
+		<button class="myButton" onclick="saveTextAsFile()"> Done</button>
+	</div>
+	<script src="imgFile.json"></script>
+	<script src="filteredID.json"></script>
+	<script src="mainjs.js"></script>
+</body>
+</html>

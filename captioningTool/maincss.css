@@ -1,0 +1,41 @@
+#showImages{
+	width:600px;
+	height:400px;
+   	float:left;
+	margin: 10px;
+}
+#showingImage{
+	width:50;
+	height:350;
+	float:left;
+	margin: 10px;
+}
+	
+
+#inputCaptioning{
+	width:600px;
+	height:400px;
+	float:left;
+	margin:10px;
+	margin-top:50px;
+}
+
+#actionsSection{
+	width:1210px;
+	height: 150px;
+	float:left;
+	margin:10px;
+}
+
+.textboxes{
+	width:500px;
+	height:20px;
+	margin:10px;
+}
+
+.myButton{
+	margin-right:50px;
+	width:100px;
+	height:40px;
+}
+
